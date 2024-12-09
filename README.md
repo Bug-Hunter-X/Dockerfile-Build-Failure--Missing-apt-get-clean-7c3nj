@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to run `apt-get clean` after installing packages.  This can lead to unnecessary bloat in the image and potential build failures due to cache issues. The solution shows how to correctly clean up after package installations to create a leaner and more efficient Docker image.
